@@ -1,7 +1,5 @@
 # Custom React Native Snippets
 
-This repository contains few of the snippets that i use in my react native videos on my youtube channel.
-
 ## Setup Instructions (VSCODE)
 
 - Open Visual Studio Code
@@ -23,5 +21,5 @@ This repository contains few of the snippets that i use in my react native video
 | `fl`    | FlatList Component vertical          |
 | `flh`   | FlatList Component Horizontal        |
 
-![view](img/viewsnip.png)
-![flatList](img/flatlisthorizontal.png)
+<img src="img/viewsnip.png" alt="drawing" width="300"/>
+<img src="img/flatlisthorizontal.png" alt="drawing" width="300"/>
