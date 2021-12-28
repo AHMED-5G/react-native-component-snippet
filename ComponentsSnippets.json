@@ -51,7 +51,7 @@
       "placeholder='$1'",
       "style={{$2}}",
       "onChangeText={$3}",
-      "autoCapitalize={${4:'none'}}",
+      "autoCapitalize=${4:'none'}",
       "/>"
     ],
     "description": "TextInput Component"
