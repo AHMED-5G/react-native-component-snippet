@@ -13,7 +13,7 @@
 | Snippet | Renders                              |
 | ------- | ------------------------------------ |
 | `v`     | View Component                       |
-| `vs`    | View Component with with empty style |
+| `vs`    | View Component with empty style |
 | `vcs`   | View Component with common styles    |
 | `t`     | Text Component                       |
 | `tcs`   | Text component with common styles    |
