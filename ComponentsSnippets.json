@@ -1,0 +1,84 @@
+{
+  "View component": {
+    "prefix": "v",
+    "body": ["<View>$1</View>"],
+    "description": "View Component"
+  },
+  "View Component with with empty style": {
+    "prefix": "vs",
+    "body": ["<View style={{$1}}>$2</View>"],
+    "description": "View Component with with empty style"
+  },
+  "View Component with common styles": {
+    "prefix": "vcs",
+    "body": [
+      "<View ",
+      "\tstyle={{",
+      "\tflexDirection: ${1:'column'},",
+      "\twidth: $2,",
+      "\theight: $3,",
+      "\tbackgroundColor: $4,",
+      "\tborderRadius: $5,",
+      "\talignItems: $6,",
+      "\tjustifyContent: $7,",
+      "\tpadding: $8,",
+      "\tmargin: $9,",
+      "}}",
+      ">$10",
+      "</View>"
+    ],
+    "description": "View Component with common styles"
+  },
+  "Text component": {
+    "prefix": "t",
+    "body": ["<Text>$1</Text>"],
+    "description": "Text Component"
+  },
+  "Text component with empty style": {
+    "prefix": "ts",
+    "body": ["<Text style={{$1}}>$2</Text>"],
+    "description": "Text component with empty style"
+  },
+  "Text component with common style": {
+    "prefix": "tcs",
+    "body": ["<Text style={{fontSize: $1,color: $2,fontWeight: $3}}>$4</Text>"],
+    "description": "Text component with common style"
+  },
+  "TextInput Component": {
+    "prefix": "ti",
+    "body": [
+      "<TextInput",
+      "placeholder='$1'",
+      "style={{$2}}",
+      "onChangeText={$3}",
+      "autoCapitalize={${4:'none'}}",
+      "/>"
+    ],
+    "description": "TextInput Component"
+  },
+  "FlatList Component vertical": {
+    "prefix": "fl",
+    "body": [
+      "<FlatList",
+      "data={$1}",
+      "renderItem={$2}",
+      "keyExtractor={${3:item} => ${3:item}.id}",
+      "showsVerticalScrollIndicator={${4:false}}",
+      "/>"
+    ],
+    "description": "FlatList Component"
+  },
+  "FlatList Component Horizontal": {
+    "prefix": "flh",
+    "body": [
+      "<FlatList",
+      "horizontal={true}",
+      "data={$1}",
+      "renderItem={$2}",
+      "keyExtractor={${3:item} => ${3:item}.id}",
+      "showsHorizontalScrollIndicator={${4:false}}",
+      "/>"
+    ],
+    "description": "FlatList Component Horizontal"
+  }
+}
