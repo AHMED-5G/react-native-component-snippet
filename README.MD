@@ -1,4 +1,4 @@
-# Custom React Native Snippets
+# Custom React Native Components Snippets
 
 ## Setup Instructions (VSCODE)
 
