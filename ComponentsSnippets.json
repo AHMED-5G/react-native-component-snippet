@@ -80,5 +80,20 @@
       "/>"
     ],
     "description": "FlatList Component Horizontal"
+  },
+  "Animated View": {
+    "prefix": "av",
+    "body": ["<Animated.View>$1</Animated.View>"],
+    "description": "FlatList Component Horizontal"
+  },
+  "Arrow": {
+    "prefix": "a",
+    "body": ["()=>{", "\t$1", "}"],
+    "description": "Arrow Function"
+  },
+  "Const": {
+    "prefix": "c",
+    "body": ["const "],
+    "description": "const"
   }
 }
